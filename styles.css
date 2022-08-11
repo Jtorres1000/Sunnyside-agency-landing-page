@@ -51,6 +51,9 @@ h2 {
     font-style: normal;
 
 }
+#p-one {
+    letter-spacing: 8px;
+}
 #CONTACT {
     font-family: 'Fraunces', serif;
     padding: 20px;
@@ -312,6 +315,10 @@ h2 {
     .nav-menu_visible {
         left: 0;
     }
+    .testimonials-box {
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 540px) {
     .section-box-seven, .section-box-six, .section-box-two ,.section-box-five{
@@ -321,6 +328,9 @@ h2 {
     }
     .nav-toggle {
         margin-left: 100px;
+    }
+    #p-one {
+        letter-spacing: 2px;
     }
 }
 
