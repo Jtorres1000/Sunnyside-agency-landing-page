@@ -332,5 +332,10 @@ h2 {
     #p-one {
         letter-spacing: 2px;
     }
+
+    header {
+        padding: 25px;
+        width: 84%;
+    }
 }
 
